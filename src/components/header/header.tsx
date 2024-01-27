@@ -28,7 +28,7 @@ export default function Header() {
           </svg>
         </div>
 
-        <Image src={img} alt="background gradial lines" priority className="absolute bottom-0 right-0 h-full -z-[1]" />
+        <Image src={img} alt="background gradial lines" priority className="absolute bottom-0 right-0 -z-[1]" />
       </div>
 
       <nav className="h-[68px] lg:h-[77px] border border-r-transparent border-l-transparent border-t-[#211E2F] border-b-[#211E2F] flex items-center bg-faintBg">
