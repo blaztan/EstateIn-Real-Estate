@@ -2,6 +2,8 @@ import AboutComponent from './AboutComponent';
 import domainIcon from '../../../../public/domain_icon.svg';
 import categoryIcon from '../../../../public/category_icon.svg';
 import Image from 'next/image';
+import arrowLeft from '../../../../public/arrow_left.svg';
+import arrowRight from '../../../../public//arrow_right.svg';
 
 export default function ValuedClients() {
   return (
@@ -82,6 +84,27 @@ export default function ValuedClients() {
           <div className="border border-faintWhite rounded-[12px] p-5">
             <h5 className="mb-[8px] text-gray text-sm leading-[21px] md:text-base md:leading-[24px]">What They Said🤗</h5>
             <p className="text-sm leading-[21px] md:text-base md:leading-[24px]">Estatein's expertise in finding the perfect office space for our expanding operations was invaluable. They truly understand our business needs.</p>
+          </div>
+        </div>
+      </div>
+
+      {/* navigation */}
+      <div className="md:ml-auto flex items-center justify-between md:border-t border-t-faintWhite w-full pt-4 mx-auto md:mt-[50px]">
+        <div className="hidden md:block text-sm leading-[21px] text-gray">
+          <span>01</span> of 60
+        </div>
+
+        <div className="flex items-center justify-between gap-[10px] w-full md:w-auto">
+          <div className="h-[44px] w-[44px] border border-faintWhite bg-faintBg rounded-[69px] flex items-center justify-center">
+            <Image src={arrowLeft} alt="arrow left" />
+          </div>
+
+          <div className="md:hidden text-sm leading-[21px] text-gray">
+            <span>01</span> of 60
+          </div>
+
+          <div className="h-[44px] w-[44px] border border-faintWhite bg-faintBg rounded-[69px] flex items-center justify-center cursor-pointer">
+            <Image src={arrowRight} alt="arrow right" />
           </div>
         </div>
       </div>

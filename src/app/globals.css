@@ -45,7 +45,8 @@ body {
 }
 
 .values,
-.clients {
+.clients,
+.findProperty {
   box-shadow: 0 0 0 6px #191919;
 }
 
