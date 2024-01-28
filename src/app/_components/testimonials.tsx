@@ -3,11 +3,16 @@ import star from '../../../public/star_icon.svg';
 import Image from 'next/image';
 import wadePic from '../../../public/wade_pic.png';
 
-export default function ClientThoughts() {
+export default function Testimonials() {
   const testArr = [1, 2, 3];
   const stars = [1, 2, 3, 4, 5];
   return (
-    <ReusableComponent heading="What Our Clients Say" subHeading="Read the success stories and heartfelt testimonials from our valued clients. Discover why they chose Estatein for their real estate needs." btnTxt="View All Testimonials">
+    <ReusableComponent
+      id="testimonials"
+      heading="What Our Clients Say"
+      subHeading="Read the success stories and heartfelt testimonials from our valued clients. Discover why they chose Estatein for their real estate needs."
+      btnTxt="View All Testimonials"
+    >
       <div className="featured gap-5">
         {testArr.map((num, i) => (
           <div key={i} className="border border-faintWhite rounded-[10px] p-[30px] mb-[20px] md:mb-0">

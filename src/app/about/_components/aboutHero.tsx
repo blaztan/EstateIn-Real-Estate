@@ -5,7 +5,7 @@ import AboutComponent from './AboutComponent';
 
 export default function AboutHero() {
   return (
-    <div className="max-w-[1440px] mx-auto px-4 md:px-[80px] mt-10 flex flex-col-reverse gap-[21px] md:gap-[60px] md:flex-row items-center">
+    <div id="our-story" className="max-w-[1440px] mx-auto px-4 md:px-[80px] mt-10 flex flex-col-reverse gap-[21px] md:gap-[60px] md:flex-row items-center">
       <div>
         <AboutComponent
           title="Our Journey"

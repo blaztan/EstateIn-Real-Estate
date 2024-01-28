@@ -2,7 +2,7 @@ import AboutComponent from './AboutComponent';
 
 export default function OurAchievements() {
   return (
-    <div className="max-w-[1440px] mx-auto px-4 md:px-[80px] mt-[61px]">
+    <div id="our-works" className="max-w-[1440px] mx-auto px-4 md:px-[80px] mt-[61px]">
       <AboutComponent title="Our Achievements" subHeading="Our story is one of continuous growth and evolution. We started as a small team with big dreams, determined to create a real estate platform that transcended the ordinary." />
 
       <div className="mt-[40px] gap-5 md:gap-[30px]">

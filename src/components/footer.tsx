@@ -31,29 +31,29 @@ export default function Footer() {
 
             <ul className="flex flex-col gap-[8px]">
               <li>
-                <Link href="#" className="text-sm md:text-base leading-[24px] tracking-[0.6%]">
+                <Link href="/#hero_home" className="text-sm md:text-base leading-[24px] tracking-[0.6%] hover:text-btn">
                   Hero Section
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-sm md:text-base leading-[24px] tracking-[0.6%]">
+                <Link href="/#features" className="text-sm md:text-base leading-[24px] tracking-[0.6%] hover:text-btn">
                   Features
                 </Link>
               </li>
 
               <li>
-                <Link href="#" className="text-sm md:text-base leading-[24px] tracking-[0.6%]">
+                <Link href="/#properties" className="text-sm md:text-base leading-[24px] tracking-[0.6%] hover:text-btn">
                   Properties
                 </Link>
               </li>
 
               <li>
-                <Link href="#" className="text-sm md:text-base leading-[24px] tracking-[0.6%]">
+                <Link href="/#testimonials" className="text-sm md:text-base leading-[24px] tracking-[0.6%] hover:text-btn">
                   Testimonials
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-sm md:text-base leading-[24px] tracking-[0.6%]">
+                <Link href="/#faqs" className="text-sm md:text-base leading-[24px] tracking-[0.6%] hover:text-btn">
                   FAQ's
                 </Link>
               </li>
@@ -69,29 +69,29 @@ export default function Footer() {
 
             <ul className="flex flex-col gap-[8px]">
               <li>
-                <Link href="#" className="text-sm md:text-base leading-[24px] tracking-[0.6%]">
+                <Link href="/about/#our-story" className="text-sm md:text-base leading-[24px] tracking-[0.6%] hover:text-btn">
                   Our Story
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-sm md:text-base leading-[24px] tracking-[0.6%]">
+                <Link href="/about/#our-works" className="text-sm md:text-base leading-[24px] tracking-[0.6%] hover:text-btn">
                   Our Works
                 </Link>
               </li>
 
               <li>
-                <Link href="#" className="text-sm md:text-base leading-[24px] tracking-[0.6%]">
+                <Link href="/about/#how-it-works" className="text-sm md:text-base leading-[24px] tracking-[0.6%] hover:text-btn">
                   How It Works
                 </Link>
               </li>
 
               <li>
-                <Link href="#" className="text-sm md:text-base leading-[24px] tracking-[0.6%]">
+                <Link href="/about/#our-team" className="text-sm md:text-base leading-[24px] tracking-[0.6%] hover:text-btn">
                   Our Team
                 </Link>
               </li>
               <li>
-                <Link href="#" className="text-sm md:text-base leading-[24px] tracking-[0.6%]">
+                <Link href="/about/#our-clients" className="text-sm md:text-base leading-[24px] tracking-[0.6%] hover:text-btn">
                   Our Client
                 </Link>
               </li>
@@ -108,12 +108,12 @@ export default function Footer() {
 
               <ul className="flex flex-col gap-[8px]">
                 <li>
-                  <Link href="#" className="text-sm md:text-base leading-[24px] tracking-[0.6%]">
+                  <Link href="/properties/#portfolio" className="text-sm md:text-base leading-[24px] tracking-[0.6%] hover:text-btn">
                     Portfolio
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-sm md:text-base leading-[24px] tracking-[0.6%]">
+                  <Link href="/properties/#categories" className="text-sm md:text-base leading-[24px] tracking-[0.6%] hover:text-btn">
                     Categories
                   </Link>
                 </li>
@@ -127,12 +127,12 @@ export default function Footer() {
 
               <ul className="flex flex-col gap-[8px]">
                 <li>
-                  <Link href="#" className="text-sm leading-[24px] tracking-[0.6%]">
+                  <Link href="/contact/#contact-us" className="text-sm leading-[24px] tracking-[0.6%] hover:text-btn">
                     Contact Form
                   </Link>
                 </li>
                 <li>
-                  <Link href="#" className="text-sm leading-[24px] tracking-[0.6%]">
+                  <Link href="/contact/#our-offices" className="text-sm leading-[24px] tracking-[0.6%] hover:text-btn">
                     Our Offices
                   </Link>
                 </li>
@@ -172,7 +172,7 @@ export default function Footer() {
               </li>
 
               <li>
-                <Link href="#" className="text-sm md:text-base leading-[24px] tracking-[0.6%]">
+                <Link href="/services/#property-management" className="text-sm md:text-base leading-[24px] tracking-[0.6%] hover:text-btn">
                   Property Management
                 </Link>
               </li>
@@ -187,12 +187,12 @@ export default function Footer() {
 
           <ul className="flex flex-col gap-[8px]">
             <li>
-              <Link href="#" className="text-sm md:text-base leading-[24px] tracking-[0.6%]">
+              <Link href="/contact/#contact-us" className="text-sm md:text-base leading-[24px] tracking-[0.6%] hover:text-btn">
                 Contact Us
               </Link>
             </li>
             <li>
-              <Link href="#" className="text-sm md:text-base leading-[24px] tracking-[0.6%]">
+              <Link href="/contact/#our-offices" className="text-sm md:text-base leading-[24px] tracking-[0.6%] hover:text-btn">
                 Our Offices
               </Link>
             </li>

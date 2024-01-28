@@ -5,15 +5,16 @@ import arrowRight from '../../../public/arrow_right.svg';
 
 type InterfaceProps = {
   children: React.ReactNode;
+  id?: string;
   heading: string;
   subHeading: string;
   btnTxt?: string;
   isDifferentNav?: boolean;
 };
 
-export default function ReusableComponent({ children, heading, subHeading, btnTxt, isDifferentNav }: InterfaceProps) {
+export default function ReusableComponent({ children, id, heading, subHeading, btnTxt, isDifferentNav }: InterfaceProps) {
   return (
-    <section className="mb-[65px] md:mb-[90px]">
+    <section id={id && id} className="mb-[65px] md:mb-[90px]">
       <Image src={multipleStars} alt="multiple stars" />
       <h2 className="font-semibold text-[28px] md:text-[38px] leading-[42px] md:leading-[57px] mb-[6px]">{heading}</h2>
       <div className="mb-[40px] md:flex items-center justify-between">

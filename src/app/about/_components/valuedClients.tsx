@@ -7,7 +7,7 @@ import arrowRight from '../../../../public//arrow_right.svg';
 
 export default function ValuedClients() {
   return (
-    <div className="max-w-[1440px] mx-auto px-4 md:px-[80px] mt-[61px] mb-[80px] md:mb-[120px]">
+    <div id="our-clients" className="max-w-[1440px] mx-auto px-4 md:px-[80px] mt-[61px] mb-[80px] md:mb-[120px]">
       <AboutComponent title="Our Valued Clients" subHeading="At Estatein, we have had the privilege of working with a diverse range of clients across various industries. Here are some of the clients we've had the pleasure of serving" />
 
       <div className="flex flex-col items-center justify-between lg:flex-row mt-[40px] gap-5 md:gap-10">

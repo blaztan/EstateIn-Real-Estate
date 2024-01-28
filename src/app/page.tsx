@@ -1,8 +1,8 @@
 import CTA from './_components/CTA';
 import FAQ from './_components/FAQ';
-import ClientThoughts from './_components/clientsThought';
 import FeaturedProperties from './_components/featuredProperties';
 import Hero from './_components/hero';
+import Testimonials from './_components/testimonials';
 
 export default function Home() {
   return (
@@ -11,7 +11,7 @@ export default function Home() {
 
       <main className="max-w-[1440px] mx-auto px-4 md:px-[80px] mt-[61px] md:mt-[95px]">
         <FeaturedProperties />
-        <ClientThoughts />
+        <Testimonials />
         <FAQ />
       </main>
 

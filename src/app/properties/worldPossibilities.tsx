@@ -3,7 +3,7 @@ import ReusableComponent from '../_components/reusableComponent';
 
 export default function WorldPossibilities() {
   return (
-    <div className="max-w-[1440px] mx-auto px-4 md:px-[80px] mt-[61px]">
+    <div id="categories" className="max-w-[1440px] mx-auto px-4 md:px-[80px] mt-[61px]">
       <ReusableComponent
         heading="Discover a World of Possibilities"
         subHeading="Our portfolio of properties is as diverse as your dreams. Explore the following categories to find the perfect property that resonates with your vision of home"

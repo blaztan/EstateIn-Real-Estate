@@ -5,6 +5,7 @@ export default function FAQ() {
 
   return (
     <ReusableComponent
+      id="faqs"
       heading="Frequently Asked Questions"
       subHeading="Find answers to common questions about Estatein's services, property listings, and the real estate process. We're here to provide clarity and assist you every step of the way."
       btnTxt="View All FAQ’s"
