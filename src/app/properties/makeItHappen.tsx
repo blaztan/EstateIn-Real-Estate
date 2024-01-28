@@ -10,6 +10,7 @@ export default function MakeItHappen() {
       <AboutComponent
         title="Let's Make It Happen"
         subHeading="Ready to take the first step toward your dream property? Fill out the form below, and our real estate wizards will work their magic to find your perfect match. Don't wait; let's embark on this exciting journey together."
+        maxWidth="max-w-[1297px]"
       />
 
       <div className="border border-faintWhite p-5 rounded-[12px] mt-[40px]">

@@ -3,7 +3,11 @@ import AboutComponent from './AboutComponent';
 export default function Experience() {
   return (
     <div id="how-it-works" className="max-w-[1440px] mx-auto px-4 md:px-[80px] mt-[61px]">
-      <AboutComponent title="Navigating the Estatein Experience" subHeading="At Estatein, we've designed a straightforward process to help you find and purchase your dream property with ease. Here's a step-by-step guide to how it all works." />
+      <AboutComponent
+        title="Navigating the Estatein Experience"
+        subHeading="At Estatein, we've designed a straightforward process to help you find and purchase your dream property with ease. Here's a step-by-step guide to how it all works."
+        maxWidth="max-w-[1296px]"
+      />
 
       <div className="stepper mt-[40px] gap-[30px] ">
         <div>

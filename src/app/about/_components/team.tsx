@@ -10,7 +10,11 @@ import sendIcon from '../../../../public/send_icon.svg';
 export default function Team() {
   return (
     <div id="our-team" className="max-w-[1440px] mx-auto px-4 md:px-[80px] mt-[61px]">
-      <AboutComponent title="Meet The Estatein Team" subHeading="At Estatein, our success is driven by the dedication and expertise of our team. Get to know the people behind our mission to make your real estate dreams a reality." />
+      <AboutComponent
+        title="Meet The Estatein Team"
+        subHeading="At Estatein, our success is driven by the dedication and expertise of our team. Get to know the people behind our mission to make your real estate dreams a reality."
+        maxWidth="max-w-[1297px]"
+      />
 
       <div className="profiles gap-5 mt-[40px]">
         <div className="p-5 border border-faintWhite rounded-[12px] max-w-[338px] mx-auto">

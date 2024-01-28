@@ -1,6 +1,5 @@
 import Image from 'next/image';
 import AboutComponent from '../about/_components/AboutComponent';
-import abstractDesign from '../../../public/abstract_bg_design.svg';
 import marketIcon from '../../../public/valuation_icon.svg';
 import roiIcon from '../../../public/roi_icon.svg';
 import ideaIcon from '../../../public/idea_icon.svg';
@@ -12,15 +11,14 @@ export default function SmartInvestments() {
       <div className="mb-[40px]">
         <AboutComponent title="Smart Investments Informed Decisions" subHeading="Building a real estate portfolio requires a strategic approach. Estatein's Investment Advisory Service empowers you to make smart investments and informed decisions." />
 
-        <div className="border border-faintWhite rounded-[10px] p-[24px] relative bg-faintBg overflow-hidden mt-5">
-          <h2 className="font-bold mb-5 text-xl md:text-[22px] md:leading-[36px] relative z-[20]">Experience Effortless Property Management</h2>
+        <div className="border border-faintWhite rounded-[10px] p-[24px] bg-faintBg mt-5 bg-[url('/abstract_bg_design.svg')]">
+          <h2 className="font-bold mb-5 text-xl md:text-[22px] md:leading-[36px]">Experience Effortless Property Management</h2>
 
-          <p className="my-5 text-sm leading-[21px] md:text-base md:leading-[24px] z-[20] relative text-gray">
+          <p className="my-5 text-sm leading-[21px] md:text-base md:leading-[24px] text-gray">
             Ready to experience hassle-free property management? Explore our Property Management Service categories and let us handle the complexities while you enjoy the benefits of property ownership.
           </p>
 
           <button className="bg-background border border-faintWhite leading-[30px] w-full h-[49px] rounded-[8px] relative z-[20]">Learn More</button>
-          <Image src={abstractDesign} alt="abstract design" className="absolute top-0 left-0 z-10 h-full" />
         </div>
       </div>
 
