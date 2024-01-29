@@ -4,6 +4,7 @@ import './globals.css';
 import Header from '@/components/header/header';
 import Footer from '@/components/footer';
 import ReduxProvider from '@/redux/provider';
+import { Analytics } from '@vercel/analytics/react';
 
 export const metadata: Metadata = {
   title: 'Real Estate Business Website',
@@ -19,7 +20,10 @@ export default function RootLayout({
     <html lang="en">
       <body suppressHydrationWarning={true}>
         <Header />
-        <ReduxProvider>{children}</ReduxProvider>
+        <ReduxProvider>
+          {children}
+          <Analytics />
+        </ReduxProvider>
         <Footer />
       </body>
     </html>
