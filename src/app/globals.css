@@ -18,6 +18,7 @@ body {
   height: 100%;
   width: 100%;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 body {
@@ -275,4 +276,8 @@ input[type='checkbox']::before {
 
 input[type='checkbox']:checked::before {
   display: block;
+}
+
+.navSlide {
+  transition: transform 500ms ease-in-out;
 }
